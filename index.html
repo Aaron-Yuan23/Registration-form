@@ -11,18 +11,18 @@
         </header>
 
         <form>
-            <h2>Signup for our newsletter</h2>
-            <h3>Get the latest news on how your code is doing right in your inbox</h3>
+            <h2 class="h2-spacing">Signup for our newsletter</h2>
+            <h3 class="spacing">Get the latest news on how your code is doing right in your inbox</h3>
             <div id="decor-box"></div>
             <section id="section-1">
-                <h2>Contact Information</h2>
+                <h2 class="h2-margin">Contact Information</h2>
                 <div>
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="user_name" class="resized-text-box">
+                    <input type="text" id="name" name="user_name" class="resized-text-box" placeholder="Required">
                 </div>
                 <div>
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="user_email" class="resized-text-box">
+                    <input type="email" id="email" name="user_email" class="resized-text-box" placeholder="Required">
                 </div>
                 <div>
                     <label for="phone">Phone Number</label>
@@ -39,10 +39,9 @@
                 <div>
                     <label for="state">State</label>
                     <select id="state" name="user_state" class="resized-text-box">
-                        <option></option>
                     </select>
                 </div>
-                <div>
+                <div id="align-left">
                     <label for="zip_code">Zip Code</label>
                     <input type="text" id="zip_code" name="user_zip_code">
             </section>
@@ -52,7 +51,6 @@
                 <h2>Newsletter</h2>
                 <div>
                     <h3> Select the newsletters you would like to receive</h3>
-                    <p>Select the newsletters you would like to receive</p>
                     <div>
                         <input type="checkbox" id="html_news" name="html_news" checked>
                         <label for="html_news">HTML News</label>
