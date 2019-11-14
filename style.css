@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    font-family: 'Merriweather', serif;
 }
 
 .btn{
@@ -116,11 +117,18 @@ input:focus, #state:focus, textarea:focus,
     background:  rgb(238, 237, 237);
 }
 
+
 select{
     border: 0px solid black;
 }
 
 :valid{
+    color: rgb(88, 87, 87);
+    padding-left: 3%;
+    font-weight: 100;
+}
+
+:invalid{
     color: rgb(88, 87, 87);
     padding-left: 3%;
     font-weight: 100;
