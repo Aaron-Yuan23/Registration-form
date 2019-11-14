@@ -3,14 +3,13 @@ body{
 }
 
 .btn{
-    width: 100%;
+    width: 90%;
     height: 8vh;
     border-radius: 5px;
     border: 0px solid;
     background-color: rgba(102, 194, 171, 0.986);
     color: white;
     font-size: 3vh;
-    
 }
 
 #decor-box{
@@ -33,7 +32,7 @@ form {
 footer{
     margin: 5%;
     text-align: center;
-    color: rgb(161, 161, 161);
+    color: rgb(88, 87, 87);
     font-size: small;
 }
 
@@ -56,7 +55,7 @@ h1{
 
 h3{
    font-weight: 200; 
-   color: rgb(161, 161, 161);
+   color: rgb(88, 87, 87);
 }
 
 input:focus, #state:focus, textarea:focus,
@@ -69,12 +68,12 @@ input:focus, #state:focus, textarea:focus,
     text-align: right;
     font-weight: 100;
     padding-right: 5%;
-    color:  rgb(161, 161, 161);
+    color:  rgb(88, 87, 87);
 }
 
 #section-1 label {
     padding-bottom: 3%;
-    color:rgb(161, 161, 161);
+    color:rgb(88, 87, 87);
 }
 
 #section-1 input, #section-1 select{
@@ -99,12 +98,12 @@ input:focus, #state:focus, textarea:focus,
 }
 
 #section-2 div{
-    color: rgb(161, 161, 161);
+    color: rgb(88, 87, 87);
     margin-bottom: 3%;
 }
 
 #section-2 h3{
-    color: rgb(161, 161, 161);
+    color: rgb(88, 87, 87);
 }
 
 #story{
@@ -119,6 +118,12 @@ input:focus, #state:focus, textarea:focus,
 
 select{
     border: 0px solid black;
+}
+
+:valid{
+    color: rgb(88, 87, 87);
+    padding-left: 3%;
+    font-weight: 100;
 }
 
 .resized-text-box{
@@ -155,6 +160,7 @@ select{
 
     h2{
         font-size: 4vh;
+        margin-top: 7%;
     }
 
     .h2-spacing{
@@ -167,6 +173,10 @@ select{
        margin-top: 5%;
     }
 
+    h3{
+        margin-top: 5%;
+    }
+
     .spacing{
         margin: 0 auto;
         margin-bottom: 5%;
@@ -176,7 +186,9 @@ select{
         display: inline-block;
         width: 15%;
         max-width:15%;
-        margin-right: 5%;
+        min-width:15%;
+        margin-right: 4%;
+        font-size: 14px;
     }
 
     #section-1 input{
@@ -202,5 +214,13 @@ select{
        position: relative;
        right: 29.5%;
 
+    }
+
+    #section-2 label{
+        font-size: 18px;
+    }
+
+    #story{
+        height: 18vh;
     }
 }
