@@ -15,8 +15,8 @@
             <h2 class="h2-spacing">Signup for our newsletter</h2>
             <h3 class="spacing">Get the latest news on how your code is doing right in your inbox</h3>
             <div id="decor-box"></div>
-            <section id="section-1">
-                <h2 class="h2-margin">Contact Information</h2>
+            <fieldset id="section-1">
+                <legend class="h2-margin">Contact Information</legend>
                 <div>
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="user_name" class="resized-text-box" placeholder="Required" required>
@@ -98,11 +98,12 @@
                     <label for="zip_code">Zip Code</label>
                     <input type="text" id="zip_code" name="user_zip_code">
                 </div>
-            </section>
+            </fieldset>
 
-            <section id="section-2">
-                <hr>
-                <h2>Newsletter</h2>
+            <hr>
+            <fieldset id="section-2">
+                
+                <legend>Newsletter</legend>
                 <div>
                     <h3> Select the newsletters you would like to receive</h3>
                     <div>
@@ -129,11 +130,12 @@
                         <input type="radio" id="plain_text" name="plain_text" value="plain_text">
                         <label for="plain_text">Plain text</label>
                     </div>
+                    <label for="story">Other topics you'd like to hear about</label>
+                    <textarea id="story" name="story"></textarea>
                 </div>
-                <h3>Other topics you'd like to hear about</h3>
-                <textarea id="story" name="story"></textarea>
-            </section>
-            <button class="btn" type="button">Sign Up</button>
+
+            </fieldset>
+            <button class="btn" type="submit">Sign Up</button>
         </form>
         
         <footer>

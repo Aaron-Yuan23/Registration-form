@@ -25,10 +25,17 @@ body{
     padding: 2% 5%;
 }
 
+
 form {
     text-align:center;
     margin: 5%;
 }
+
+fieldset{
+    border: none;
+    margin-top: 3%;
+}
+
 
 footer{
     margin: 5%;
@@ -39,6 +46,8 @@ footer{
 
 hr{
     border: 1px solid;
+    margin-bottom: 5%;
+    width: 90%;
 }
 
 header{
@@ -54,8 +63,14 @@ h1{
     font-size:25px;
 }
 
-h3{
+.h2-margin{
+    margin-left: 3%;
+    margin-bottom:3%;
+}
+
+ h3{
    font-weight: 200; 
+   font-size: 2.5vh;
    color: rgb(88, 87, 87);
 }
 
@@ -63,6 +78,18 @@ input:focus, #state:focus, textarea:focus,
  #zip_code:focus, 
 #story:focus{
     outline-color: rgb(7, 7, 211); 
+}
+
+
+#section-1 legend{
+    font-size: 3vh;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#section-2 legend{
+    font-size: 3vh;
+    text-align: left; 
 }
 
 ::placeholder{
@@ -75,6 +102,10 @@ input:focus, #state:focus, textarea:focus,
 #section-1 label {
     padding-bottom: 3%;
     color:rgb(88, 87, 87);
+}
+#plain_text{
+    margin-bottom: 2%;
+    
 }
 
 #section-1 input, #section-1 select{
@@ -91,6 +122,7 @@ input:focus, #state:focus, textarea:focus,
 #section-2{
     text-align: left;
     margin: 0 5%;
+    padding-left:3%;
 }
 
 #section-2 input{
@@ -99,6 +131,7 @@ input:focus, #state:focus, textarea:focus,
 }
 
 #section-2 div{
+    padding: 2%, 5%;
     color: rgb(88, 87, 87);
     margin-bottom: 3%;
 }
@@ -109,6 +142,7 @@ input:focus, #state:focus, textarea:focus,
 
 #story{
     box-sizing: border-box;
+    margin-top: 5%;
     margin-bottom: 8%;
     width: 100%;
     height: 15vh;
@@ -122,7 +156,7 @@ select{
     border: 0px solid black;
 }
 
-:valid{
+select:valid{
     color: rgb(88, 87, 87);
     padding-left: 3%;
     font-weight: 100;
@@ -177,17 +211,23 @@ select{
 
     .h2-margin{
        text-align: left;
-       margin-left: 5%; 
        margin-top: 5%;
+       margin-left: 3%;
+       margin-bottom:3%;
     }
 
     h3{
         margin-top: 5%;
+        font-size:2.5vh;
     }
 
     .spacing{
         margin: 0 auto;
         margin-bottom: 5%;
+    }
+
+    #section-1 div{
+        margin-right:3%;
     }
 
     #section-1 label{
@@ -225,10 +265,12 @@ select{
     }
 
     #section-2 label{
-        font-size: 18px;
+        font-size: 2.5vh;
+        padding-bottom: 3%;
     }
 
     #story{
         height: 18vh;
+        margin-top: 3%;
     }
 }
